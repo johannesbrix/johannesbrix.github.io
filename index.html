@@ -16,8 +16,8 @@
 
 <!-- main content of webpage -->
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li>
                     <a href="index.html">HOME</a>
@@ -29,55 +29,55 @@
                     <a href="about.html">ABOUT</a>
                 </li>
             </ul>
-            <hr>
         </nav>
     
-        <h1>Johannes Brix</h1>
+        <h1 class="title-name title-name-large">Johannes Brix</h1>
 
-        <button type="button">Get my latest blog</button>
+        <button class="btn btn-header" type="button">Get my latest blog</button>
         <!-- TODO: we need to add image later - find good image -->
     </header>
 
-    <section>
-        <h2>JB's Blog</h2>
+    <section class="content-section container">
+        <h2 class="section-header">JB's Blog</h2>
 
         <div>
             <!-- Blog box inspired by: https://aliabdaal.com/free-resources/ -->
             <!-- Blog box inspired by: https://conorneill.com/all-posts/ -->
-            <div>
-                <div>
-                    <span>TITLE2</span>
+            <div class="blog-row">
+                <div class="blog-item">
+                    <span class="blog-title">TITLE2</span>
                 </div>
-                <div>
-                    <strong>APR 10, 2025</strong>
+                <div class="blog-item">
+                    <span class="blog-date">APR 10, 2025</span>
                 </div>
-                <div>
+                <div class="blog-item blog-description">
                     Here should be a preview of  the actual article (with the read more clickable)
                 </div>
-                <div>
-                    <span>TAG1</span>
-                    <span>TAG2</span>
-                    <span>TAG3</span>
+                <div class="blog-item">
+                    <span class="blog-tag">TAG1</span>
+                    <span class="blog-tag">TAG2</span>
+                    <span class="blog-tag">TAG3</span>
                 </div>
-                <button type="button">READ MORE</button>
+                <button class="btn blog-item blog-btn" type="button">READ MORE</button>
             </div>
-            <hr>
 
-            <div>
-                <span>TITLE1</span>
+            <div class="blog-row">
+                <div class="blog-item">
+                    <span class="blog-title">TITLE1</span>
+                </div>
+                <div class="blog-item">
+                    <span class="blog-date">APR 9, 2025</span>
+                </div>
+                <div class="blog-item blog-description">
+                    Here should be a preview of  the actual article (with the read more clickable)
+                </div>
+                <div class="blog-item">
+                    <span class="blog-tag">TAG1</span>
+                    <span class="blog-tag">TAG2</span>
+                    <span class="blog-tag">TAG3</span>
+                </div>
+                <button class="btn blog-item blog-btn" type="button">READ MORE</button>
             </div>
-            <div>
-                <strong>APR 9, 2025</strong>
-            </div>
-            <div>
-                Here should be a preview of  the actual article (with the read more clickable)
-            </div>
-            <div>
-                <span>TAG1</span>
-                <span>TAG2</span>
-                <span>TAG3</span>
-            </div>
-            <button type="button">READ MORE</button>
         </div>
 
 
@@ -85,33 +85,35 @@
 
     </section>
 
-    <footer>
-        <h3>
-            Johannes Brix
-        </h3>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="title-name">
+                Johannes Brix
+            </h3>
 
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/johannes.brix/" target="_blank">
-                    <img class="footer_logo" src="images/instagram_logo.svg">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/johannesbrix/" target="_blank">
-                    <img class="footer_logo" src="images/linkedin_logo.svg">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/@JohannesBrixYT" target="_blank">
-                    <img class="footer_logo" src="images/youtube_logo.svg">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/johannesbrix" target="_blank">
-                    <img class="footer_logo" src="images/github_logo.svg">
-                </a>
-            </li>
-        </ul>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.instagram.com/johannes.brix/" target="_blank">
+                        <img class="footer_logo" src="images/instagram_logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/johannesbrix/" target="_blank">
+                        <img class="footer_logo" src="images/linkedin_logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@JohannesBrixYT" target="_blank">
+                        <img class="footer_logo" src="images/youtube_logo.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/johannesbrix" target="_blank">
+                        <img class="footer_logo" src="images/github_logo.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
