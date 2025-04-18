@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+/* General styling */
+
 * {
     box-sizing: border-box;
-    font-family: "Nunito Sans";
-}
-
-html, body {
     padding: 0;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Nunito Sans";
 }
 
 /* Header styling */
@@ -32,9 +35,14 @@ html, body {
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: rgba(255, 165, 0, 0.5);
-}
+    /* hovering effect header */
+    .nav a:hover {
+        color: rgba(255, 165, 0, 0.5); 
+    }
+
+    .nav a:hover svg path {
+        stroke: rgba(255, 165, 0, 0.5); ;
+    }
 
 .main-nav {
     text-align: center;
@@ -77,6 +85,8 @@ html, body {
     margin: 15px;
 }
 
+/* footer section styling */
+
 .main-footer {
     padding: 1em 0;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
@@ -101,6 +111,7 @@ html, body {
     width: 20px;
 }
 
+/* button styling */
 
 .btn {
     text-align: center;
@@ -125,6 +136,8 @@ html, body {
 .btn-header:hover {
     color: rgba(255, 165, 0, 0.5);
 }
+
+/* blog post styling */
 
 .blog-row {
     border-bottom: 1px solid black;
@@ -164,6 +177,8 @@ html, body {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* link styling */
+
 .link {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
@@ -171,4 +186,38 @@ html, body {
 
 .link:hover {
     color: rgba(255, 165, 0, 0.5);
+}
+
+#nav-toggle-close, #nav-toggle-open {
+    height: 26px;
+    width: 26px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+.sidebar {
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999; /* sidebar should be above everything else */
+    background-color: rgb(235, 235, 235);
+    box-shadow: -20px 0 20px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
 }
