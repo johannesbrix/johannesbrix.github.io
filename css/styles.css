@@ -221,3 +221,9 @@ nav ul {
 .sidebar a {
     width: 100%;
 }
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none !important; /* this should be made prettier, there are some hierarchy conflicts */
+    }
+}
