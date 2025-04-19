@@ -227,3 +227,18 @@ nav ul {
         display: none !important; /* this should be made prettier, there are some hierarchy conflicts */
     }
 }
+
+@media(min-width: 800px) {
+    .hideOnDesktop{
+        display: none !important; /* this should be made prettier, there are some hierarchy conflicts */
+    }
+}
+
+
+
+@media(max-width: 800px) {
+    nav ul {
+        display: flex; /* this should be made prettier, there are some hierarchy conflicts */
+        justify-content: right; 
+    }
+}
