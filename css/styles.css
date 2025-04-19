@@ -238,7 +238,14 @@ nav ul {
 
 @media(max-width: 800px) {
     nav ul {
-        display: flex; /* this should be made prettier, there are some hierarchy conflicts */
+        display: flex; 
         justify-content: right; 
+    }
+}
+
+@media(max-width: 550px) {
+    .main-footer-container {
+        display: flex;
+        flex-direction: column;    
     }
 }
