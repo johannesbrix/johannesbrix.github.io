@@ -115,13 +115,21 @@ body {
 /* content section styling */
 
 .content-section {
-    margin: 0.5em 1em 4rem !important;
+    margin: 0.5em auto 4rem !important; 
+    max-width: 100%;
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 70%;
+    }
 }
 
 .section-header {
