@@ -44,7 +44,7 @@ body {
 }
 
 .share-button {
-    background-color: #4a76a8;
+    background-color: #fc4c02;
     color: white;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -55,7 +55,7 @@ body {
 }
 
 .share-button:hover {
-    background-color: #355f88;
+    background-color: rgba(252, 76, 2, 0.5);
 }
 
 h1 {
@@ -90,4 +90,16 @@ br {
 
 section {
     margin-bottom: 3rem;
+}
+
+/* Article link styling */
+section a {
+    color: rgba(252, 76, 2, 1);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+section a:hover {
+    color: rgba(252, 76, 2, 0.5);
 } 
