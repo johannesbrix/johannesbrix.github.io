@@ -37,11 +37,11 @@ body {
 
     /* hovering effect header */
     .nav a:hover {
-        color: rgba(255, 165, 0, 0.5); 
+        color: rgba(252, 76, 2, 0.5); 
     }
 
     .nav a:hover svg path {
-        stroke: rgba(255, 165, 0, 0.5); ;
+        stroke: rgba(252, 76, 2, 0.5); ;
     }
 
 .main-nav {
@@ -122,7 +122,7 @@ body {
 }
 
 .btn-header {
-    border: 2px solid rgba(255, 165, 0, 0.5);
+    border: 2px solid rgba(252, 76, 2, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: .25em;
     font-size: 1em;
@@ -134,7 +134,7 @@ body {
 }
 
 .btn-header:hover {
-    color: rgba(255, 165, 0, 0.5);
+    color: rgba(252, 76, 2, 0.5);
 }
 
 /* blog post styling */
@@ -172,7 +172,7 @@ body {
 }
 
 .blog-btn {
-    border: 2px solid rgba(255, 165, 0, 0.5);
+    border: 2px solid rgba(252, 76, 2, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(0, 0, 0, 0.5);
 }
@@ -185,7 +185,7 @@ body {
 }
 
 .link:hover {
-    color: rgba(255, 165, 0, 0.5);
+    color: rgba(252, 76, 2, 0.5);
 }
 
 #nav-toggle-close, #nav-toggle-open {
