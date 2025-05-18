@@ -20,6 +20,11 @@ body {
 }
 
 .main-header {
+    padding: 1em 0;
+    margin-bottom: 0;
+}
+
+.index-header {
     padding: 1em 0 2em;
     margin-bottom: 2em;
     border-bottom: 1px solid #f0f0f0;
@@ -90,7 +95,7 @@ body {
 .header-quote:before {
     content: '"';
     position: absolute;
-    left: 0;
+    left: .5em;
     top: -0.3em;
     font-size: 2em;
     color: rgba(252, 76, 2, 0.3);
@@ -100,7 +105,7 @@ body {
 .header-quote:after {
     content: '"';
     position: absolute;
-    right: 0;
+    right: .5em;
     bottom: -0.7em;
     font-size: 2em;
     color: rgba(252, 76, 2, 0.3);
@@ -110,7 +115,7 @@ body {
 /* content section styling */
 
 .content-section {
-    margin: 1em;
+    margin: 0.5em 1em 4rem !important;
 }
 
 .container {
@@ -122,7 +127,7 @@ body {
 .section-header {
     text-align: center;
     font-size: 1.8em;
-    margin: 2.5em 0 1em;
+    margin: 1em 0 1em;
     position: relative;
     font-weight: 600;
 }
