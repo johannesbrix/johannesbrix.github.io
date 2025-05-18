@@ -18,9 +18,9 @@
 <body>
     <header class="main-header">
         <nav class="nav main-nav">         
-            <ul class="sidebar">
+            <ul class="sidebar nav-toggle-mobile">
                 <li class="nav-toggle">
-                    <a>
+                    <a onclick=hideSidebar()>
                         <svg id="nav-toggle-close" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Menu / Close_MD">
                         <path id="Vector" d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
@@ -39,18 +39,18 @@
                 </li>
             </ul>
 
-            <ul>
-                <li>
+            <ul class="nav-toggle-mobile">
+                <li class="hideOnMobile">
                     <a href="index.html">HOME</a>
                 </li>
                 <!-- <li>
                     <a href="articles.html">ARTICLES</a>
                 </li> -->
-                <li>
+                <li class="hideOnMobile">
                     <a href="about.html">ABOUT</a>
                 </li>
-                <li class="nav-toggle">
-                    <a>
+                <li class="nav-toggle hideOnDesktop">
+                    <a onclick=showSidebar()>
                         <svg id="nav-toggle-open" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4 6H20" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
                             <path d="M7 12H20" stroke="#000000" stroke-width="1" stroke-linecap="round"/>
@@ -109,6 +109,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
 
