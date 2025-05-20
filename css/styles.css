@@ -174,7 +174,7 @@ body {
 .main-footer {
     padding: 2em 0;
     background: #fafbfc;
-    border-top: 1.5px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
     margin-top: 3em;
     box-shadow: 0 -2px 12px rgba(0,0,0,0.03);
 }
@@ -470,4 +470,16 @@ nav ul {
 .nav a:hover svg path,
 .nav-toggle a:hover svg path {
     stroke: rgba(252, 76, 2, 1);
+}
+
+.home-profile-picture {
+    display: block;
+    margin: 2.2em auto 2.2em auto;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border: 3px solid #fafbfc;
+    transition: box-shadow 0.3s, transform 0.3s;
 }
