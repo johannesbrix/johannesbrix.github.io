@@ -162,13 +162,6 @@ body {
     border-radius: 2px;
 }
 
-.about-profile-picture{
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin: 15px;
-}
-
 /* footer section styling */
 
 .main-footer {
@@ -482,4 +475,17 @@ nav ul {
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border: 3px solid #fafbfc;
     transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.about-section {
+  margin-bottom: 2.2em;
+}
+
+.about-caption {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 0.2px;
 }
