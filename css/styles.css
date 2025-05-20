@@ -28,8 +28,8 @@ body {
 }
 
 .index-header {
-    padding: 1em 0 2em;
-    margin-bottom: 2em;
+    padding: 1em 0 0;
+    margin-bottom: 0.5em;
     border-bottom: 1px solid #f0f0f0;
 }
 
@@ -54,7 +54,7 @@ body {
     }
 
     .nav a:hover svg path {
-        stroke: rgba(252, 76, 2, 0.5); ;
+        stroke: rgba(252, 76, 2, 1);
     }
 
 .main-nav {
@@ -174,7 +174,7 @@ body {
 .main-footer {
     padding: 2em 0;
     background: #fafbfc;
-    border-top: 1.5px solid #e5e5e5;
+    border-top: 1.5px solid #f0f0f0;
     margin-top: 3em;
     box-shadow: 0 -2px 12px rgba(0,0,0,0.03);
 }
@@ -465,4 +465,9 @@ nav ul {
     letter-spacing: 0.5px;
     color: #222;
     margin: 0;
+}
+
+.nav a:hover svg path,
+.nav-toggle a:hover svg path {
+    stroke: rgba(252, 76, 2, 1);
 }
