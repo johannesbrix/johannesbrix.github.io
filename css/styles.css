@@ -490,3 +490,16 @@ nav ul {
   color: #222;
   letter-spacing: 0.2px;
 }
+
+.privacy-section {
+  margin-bottom: 2.2em;
+}
+
+.privacy-caption {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 0.2px;
+}
