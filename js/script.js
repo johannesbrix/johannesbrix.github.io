@@ -1,4 +1,3 @@
-
 // sidebar functionality 
 function showSidebar() {
     const sidebar = document.querySelector('.sidebar')
@@ -44,3 +43,21 @@ function shareBlogPost() {
         }, 2000);
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const blogRows = document.querySelectorAll('.blog-row');
+    blogRows.forEach(row => {
+        row.addEventListener('click', function(event) {
+            // Check if the click target is the button or a link inside the button
+            if (event.target.closest('.blog-btn')) {
+                // If the click is on the button or its children, let the default action proceed
+                return;
+            }
+
+            const href = this.dataset.href;
+            if (href) {
+                window.location.href = href;
+            }
+        });
+    });
+});
